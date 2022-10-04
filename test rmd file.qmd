@@ -14,6 +14,8 @@ When you click the **Render** button a document will be generated that includes 
 
 ```{r}
 1 + 1
+library(shiny)
+library(htmltools)
 ```
 
 You can add options to executable code like this
@@ -24,22 +26,5 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
-
-```{r}
-#setting up Zotero and citr
-install.packages("citr")
-devtools::install_github("crsh/citr")
-1
-install.packages("devtools")
-```
-
-```{r}
-devtools::install_github("crsh/citr")
-
-```
-
-```{r}
-
-```
 
 Bacteria have the ability to fix nitrogen in soil \[\@knothBiologicalNitrogenFixation2014\]
